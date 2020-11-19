@@ -5,9 +5,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #283747;
+  color: #F0F3F4;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.banner {
+
+}
+
+.repository:hover {
+  color: inherit;
+}
+
+.repository {
+  background-color: #34495E;
+  color: inherit;
+  height: 250px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px;
+}
+
+.description {
+  overflow: hidden;
+  height: 70px;
+}
+
+.name {
+  font-size: 20px;
 }
